@@ -2,7 +2,6 @@ package game;
 
 import java.awt.*;
 import java.util.Random;
-
 public class Ball {
 
     public double x, y;
@@ -26,9 +25,10 @@ public class Ball {
         }
         if(y >= GameFrame.HEIGHT){
 
-            return;
+
         }else if (y <= 0){
-            new GameFrame();
+
+
 
         }
         Rectangle r = new Rectangle((int)(x+(dx*speed)), (int)(y+(dy*speed)), WIDTH, HEIGHT);
