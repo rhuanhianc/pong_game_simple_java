@@ -16,9 +16,9 @@ public class GameFrame extends Canvas implements Runnable, KeyListener {
     public static  int HEIGHT = 160;
     private static  int SCALE = 3;
     private BufferedImage layer = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
-    private Player player;
-    private Enemy enemy;
-    private Ball ball;
+    public static Player player;
+    public static Enemy enemy;
+    public static Ball ball;
     public GameFrame() {
     this.setPreferredSize(new Dimension(WIDTH * SCALE, HEIGHT * SCALE));
         this.addKeyListener(this);
