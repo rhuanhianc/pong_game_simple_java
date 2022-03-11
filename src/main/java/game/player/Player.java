@@ -6,10 +6,11 @@ import java.awt.*;
 
 public class Player {
 
-    private int x,y;
+    public int x;
+    public int y;
     public boolean right,left;
-    private static final int WIDTH = 40;
-    private static final int HEIGHT = 10;
+    public static final int WIDTH = 40;
+    public static final int HEIGHT = 5;
     public Player(int x, int y) {
         this.x = x;
         this.y = y;
